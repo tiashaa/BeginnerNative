@@ -5,6 +5,7 @@ const Home = (navigation) => {
     <View style={styles.center}>
       <Text>This is the home screen</Text>
       <Button title="Go to Profile Screen" onPress={() => navigation.navigate("Profile")} />
+      {/* this is a commment */}
     </View>
   );
 };
